@@ -1,0 +1,22 @@
+{
+  "data": "homework1/data/chest_xray",
+  "out": "homework1/runs/vae_cpu",
+  "epochs": 30,
+  "batch_size": 64,
+  "latent_dim": 64,
+  "lr": 0.001,
+  "seed": 285,
+  "threads": 6,
+  "device": "cpu",
+  "train_count": 5216,
+  "val_count": 16,
+  "torch": "2.6.0",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "preprocessing": "PIL grayscale, bilinear resize 64x64, [0,1]",
+  "objective": "pixel-summed BCE + latent-summed KL; beta=1; batch mean",
+  "source_hashes": {
+    "model.py": "b1d40d7b0e29a4df3d82a8b4df5635368e5529a91eb3aa47993551433b11a9ef",
+    "data.py": "c9ae42b51a2cca1ece4a032cdb787a20e1519359d0f2275743ee35da5e848b9f",
+    "train.py": "19f17e35d077bd908f8d9d5f36cdadd1f4df3b37be9db7f3a3a4fce41990b4ab"
+  }
+}

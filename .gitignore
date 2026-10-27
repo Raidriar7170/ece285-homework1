@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+data/
+runs/
+*.zip
+*.aux
+*.log
+*.out
+
+.DS_Store

@@ -1,0 +1,13 @@
+{
+  "python": "3.12.2",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "packages": {
+    "torch": "2.6.0",
+    "torchvision": "0.21.0",
+    "pytorch-ignite": "0.5.2",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "Pillow": "12.2.0",
+    "matplotlib": "3.9.2"
+  }
+}

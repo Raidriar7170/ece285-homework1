@@ -1,0 +1,19 @@
+{
+  "fid_2048": 196.59868415902025,
+  "inception_score": 1.7685023503698283,
+  "real_count": 624,
+  "generated_count": 624,
+  "seed": 1285,
+  "checkpoint_epoch": 26,
+  "checkpoint_sha256": "70b4de0865091cacdbfc95ef2f874ebfa5bc992ced99071a50c784f5aadd6714",
+  "feature_extractor": "torchvision ImageNet Inception_V3_Weights.IMAGENET1K_V1, pool3 2048",
+  "preprocessing": "grayscale 64x64 [0,1] -> uint8 RGB repeat -> PIL bilinear 299x299 -> ImageNet normalization",
+  "is_protocol": "single global score over all generated samples; no split standard deviation",
+  "fid_protocol": "Ignite FID with explicit 2048-dimensional pooled features, not default 1000 probabilities; not Clean-FID",
+  "inception_weights_sha256": "0cc3c7bd75056d25e46cba549dc184522069b81e9787eff6df84f397bd52a5ef",
+  "ignite_version": "0.5.2",
+  "device": "cpu",
+  "elapsed_seconds": 186.33665800001472,
+  "source_sha256": "45f082b2aee19c6eb6ed5472dad7a0e6550dfc437106c7ec3c527a00b65e5abd",
+  "limitations": "ImageNet features are not clinical validation; small-sample FID is biased; supplied split does not establish patient independence"
+}

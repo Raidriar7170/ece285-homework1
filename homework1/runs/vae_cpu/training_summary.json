@@ -1,0 +1,6 @@
+{
+  "best_epoch": 26,
+  "best_val_total": 2294.26416015625,
+  "elapsed_seconds": 377.93932483298704,
+  "checkpoint_sha256": "70b4de0865091cacdbfc95ef2f874ebfa5bc992ced99071a50c784f5aadd6714"
+}
